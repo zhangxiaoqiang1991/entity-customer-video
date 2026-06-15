@@ -59,13 +59,7 @@ description: |
 
 ---
 
-## 工作流程
-
-### 使用方式
-
-```
-安装 → 采访 → 生成
-```
+## 安装
 
 **一行命令安装（以 Claude Code 为例）：**
 
@@ -76,6 +70,12 @@ cp -r skills/entity-copywriter ~/.claude/skills/ && /entity-copywriter
 **也支持以下 AI 编程工具**（把 SKILL.md 内容粘贴为系统提示词即可）：国内：Workbuddy / Codebuddy / KimiCode / Trae　　国外：Codex / OpenClaw
 
 ---
+
+## 工作流程
+
+```
+采访 → 生成
+```
 
 ### Phase 1：采访商家信息
 
